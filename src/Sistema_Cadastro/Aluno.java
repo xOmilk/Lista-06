@@ -7,9 +7,9 @@ public class Aluno {
     private String matricula;
 
     public Aluno(String nome, String endereco, String matricula) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.matricula = matricula;
+        this.setNome(nome);
+        this.setEndereco(endereco);
+        this.setMatricula(matricula);
     }
     public void imprimirAluno(){
         System.out.println("Aluno: "+this.getMatricula());
